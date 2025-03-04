@@ -3,10 +3,10 @@ let count = 0;
 let num = 2;
 let result = "";
 if (n < 1) {
-    console.log("Invalid input. N must be greater than or equal to 1.");
+    console.log("Invalid input. N phải lớn hơn 1");
 
 }else if (isNaN(n)) {
-    console.log("Invalid input. N must be a number."); 
+    console.log("Invalid input. N phải là số."); 
 }else{
     while (count < n) {
         let isPrime = true;
